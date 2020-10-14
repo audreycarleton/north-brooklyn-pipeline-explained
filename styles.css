@@ -1,0 +1,254 @@
+body {
+    min-height: 100% padding-top: 90px;
+}
+
+/*  background-image: url(file:///Users/audreycarleton/Documents/CUNY%20/Fall%202020/Data:Interactive/Assignment%201%20-%20North%20Brooklyn%20Pipeline/background-assignment1.png);
+    background-position: left;
+    background-size: 100%
+        /*font-family: "Comic Sans MS"*/
+/*  font-family: "georgia"; */
+}
+
+/*h1 {
+    color: #ffffff;
+    background-color: #b3e6b3;
+    /*  opacity: 100%; } */
+.white-font {
+    color: #ffffff;
+}
+
+.teal-background {
+    background-color: #669999;
+}
+
+/* i'm thinking i want the whole thing to be georgia but we'll see*/
+.hero-image {
+    /*  width: 100vw;*/
+    height: 300px;
+    opacity: 75%;
+    padding-bottom: 40px;
+    background-image: url(pipeline.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-image img {
+    width: 100%;
+    opacity: 0.2%;
+}
+
+.background {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+}
+
+.georgia-font {
+    font-family: georgia, serif;
+    opacity: 100%;
+}
+
+.header-font {
+    font-family: georgia, serif;
+    color: #ffffff;
+    text-align: left;
+}
+
+figcaption {
+    text-align: center;
+    font: bold;
+}
+
+h2 {
+    /*  text-align: left;*/
+    color: #669999;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.container {
+    /*max-width: 732px;*/
+    width: 100%;
+    margin: 3%;
+}
+
+.grey-text {
+    color: #857F88;
+    font: bold;
+}
+
+.teal-text {
+    color: #669999;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.peach-text {
+    color: #669999;
+    font-weight: bold;
+}
+
+.figcaption {
+    text-align: center;
+    font: bold;
+    font-family: georgia serif;
+}
+
+.center {
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.left-box-real {
+    display: flex;
+    flex-direction: column;
+    /*  flex-wrap: wrap;*/
+    position: absolute;
+    left: 220px;
+    width: 200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-top: 2px;
+    /*  border: 3px solid #73AD21;*/
+    padding: 10px;
+}
+
+.middle-text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 910px;
+    width: 75px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-top: 2px;
+    /*border: 3px solid #73AD21;*/
+    padding: 10px;
+}
+
+.right-text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 200px;
+    width: 600px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-top: 2px;
+    /*border: 3px solid #73AD21;*/
+    padding: 10px;
+}
+
+.charcoal-font {
+    color: #595959;
+}
+
+/*.left-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    padding-top: 50px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+}
+
+green-border {
+    border-color: #b3e6b3;
+    border-width: 10px;
+    border-style: solid;
+}
+
+/*.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    background-color: #b3e6b3;
+    color: #ffffff;
+    text-align: center;
+}*/
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    margin-top: 80px;
+    font: bold;
+    background-color: #669999;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header-font {
+    color: white !important;
+    opacity: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #669999;
+}
